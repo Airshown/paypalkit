@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <paypalaccess>
+  <clientid>AQLJBnwu_Yy8ktODSB4JZxMUNoGQ2WgrDuRer-KJLLKuP07xxibRhHVSOWdpgaD8LEWUX_Q0VT0yK5AD</clientid>
+  <secretkey>EIERuGr1Gjf8TGcXJ_g67QGXNWrP6nVIS2RnJ6g9QmlPSpHhLAwV_RKelPiZkTgp0USgWX3WVJxmOW5f</secretkey>
+  <domainname>https://api.sandbox.paypal.com</domainname>
+  <successurl>http://kit.dev/example_success.php</successurl>
+  <cancelurl>http://kit.dev/example_cancel.php</cancelurl>
+ </paypalaccess>
+</config>
