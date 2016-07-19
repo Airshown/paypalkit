@@ -26,7 +26,7 @@ Ces informations seront utilisées par le MiniKit pour requêter l'API.
 
 Vous pouvez regarder l'exemple, où utiliser les fonctions suivantes :
 
-L'envoie des informations à Paypal :
+**L'envoie des informations à Paypal**
 ```sh
 require_once __DIR__ . '/paypalminikit/autoload.php';
 	
@@ -48,7 +48,7 @@ $payment['links'][1]['href'];
 
 ```
 
-Le fichier de succès :
+**Le fichier de succès**
 ```sh
 require_once __DIR__ . '/paypalminikit/autoload.php';
 $connexionPaypal = new PaypalMiniKit_PaypalCurl();
@@ -69,7 +69,7 @@ if(array_key_exists ( 'state' , $paymentExecuteResp)){
 }
 ```
 
-Le fichier d'annulation : 
+**Le fichier d'annulation**
 ```sh
   Paiement annulé
 ```		
