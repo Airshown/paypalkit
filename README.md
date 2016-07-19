@@ -2,7 +2,7 @@
 
 Guide pour utiliser notre MiniKit pour l'API de Paypal.
 
-## Première étape : Inclure les sources dans votre Projet
+## PremiÃ¨re Ã©tape : Inclure les sources dans votre Projet
 
 Incluez le chargeur automatique fourni avec le Kit.
 
@@ -10,16 +10,17 @@ Incluez le chargeur automatique fourni avec le Kit.
 require_once __DIR__ . '/path/to/PaypalMiniKit/autoload.php';
 ```
 
-## Deuxième étape : Connexion à l'API
+## DeuxiÃ¨me Ã©tape : Connexion Ã  l'API
 
 Dans le fichier **config.xml**, indiquer les informations de votre compte API Paypal.
 
-- **clientid** : correspond à l'ID client donné par Paypal
-- **secretkey** : correspond à la clé secrète donnée par par Paypal
-- **domainname** : correspond au serveur que vous allez requêter ( pour le développement : https://api.sandbox.paypal.com)
+- **clientid** : correspond Ã  l'ID client donnÃ© par Paypal
+- **secretkey** : correspond Ã  la clÃ© secrÃ¨te donnÃ©e par par Paypal
+- **domainname** : correspond au serveur que vous allez requÃªter ( pour le dÃ©veloppement : https://api.sandbox.paypal.com)
 
-Ces informations seront utilisées par le MiniKit pour requêter l'API.
+Ces informations seront utilisÃ©es par le MiniKit pour requÃªter l'API.
 
-## Troisième étape : Utiliser notre MiniKit
+## TroisiÃ¨me Ã©tape : Utiliser notre MiniKit
 
 
+..
